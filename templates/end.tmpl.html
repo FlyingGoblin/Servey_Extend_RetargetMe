@@ -1,0 +1,67 @@
+<patTemplate:tmpl name="end">
+
+<div id="page">
+<form id="endForm" action="index.php" method="post">
+  <table width="1000" border="0" align="center">
+    <tr>
+      	<td><h1>Done!</h1>
+      	<p>&nbsp;</p></td>
+    </tr>
+    <tr>
+      	<td><p>Thank you!<br>
+   		You have successfully completed the survey and submitted your answers.</p>
+   		<p>Your response is very important for us, for computer science, and for humanity :-)</p>
+		<p>This survey is an extension of <a href="http://people.csail.mit.edu/mrub/retargetme/index.html">RetregetMe</a></p>
+    	<p>If you have any comments or questions, please email us at: <a href="chenyang15@mails.tsinghua.edu.cn"style="color: #9166CC;">chenyang15@mails.tsinghua.edu.cn</a>.<br>
+			(obviously, your email will not be shared or used for any other purpose)</p>
+      	<p>&nbsp;</p></td>
+    </tr>
+<!-- <tr>
+      	<td><span id="sprytextfield1">
+    		email (optional): <input type="text" name="email" id="email">
+    		<span class="textfieldInvalidFormatMsg">Invalid email format.</span>      
+    		</span>      
+    		<p>&nbsp;</p>
+  		</td>
+ 	</tr> -->
+    <tr>
+      <td><p>Once again, thank you for participating!</p></td>
+    </tr>
+    
+    <patTemplate:comment>
+    Give to the user his/her session id, to be entered at Mechanical Turk
+  	</patTemplate:comment>
+    <tr>
+    	<td><p>&nbsp;</p><p>&nbsp;</p>
+    		<patTemplate:tmpl name="end_uuid" type="simpleCondition" requiredVars="UUID">
+      		Your code for Mechanical Turk is:<br><br>
+      		<font size="4">{UUID}</font>
+   			</patTemplate:tmpl>
+   		</td>
+    </tr>
+<!-- <tr>
+      <td><div align="center">
+        <input type="button" name="done" id="done" value="Done!" onclick="done_onClick()"/>
+        <input type="hidden" id="pageid" name="pageid" value="{PAGEID}"/>
+        <input type="hidden" id="formname" name="formname" value="{FORM_NAME}" />
+      </div></td>
+    </tr> -->
+  </table>
+</form>
+</div>
+
+<script type="text/javascript">
+<!--
+
+function done_onClick() {
+	var form = document.getElementById("endForm");
+	var valid = Spry.Widget.Form.validate(form);
+	if(valid)
+		form.submit();
+}
+
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "email", {isRequired:false});
+//-->
+</script>
+
+</patTemplate:tmpl>

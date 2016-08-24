@@ -1,0 +1,111 @@
+<patTemplate:tmpl name="imquery_trial">
+
+<script type="text/javascript" src="js/SpryValidationCheckbox.js"></script>
+<script type="text/javascript" src="js/tinybox.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/SpryValidationCheckbox.css">
+<link rel="stylesheet" type="text/css" href="css/tinybox.css" />
+
+<div id="page">
+<table width="1024px" border="0" align="center">
+  <tr>
+    <td><div align="left">
+    This is the result you <u>did not</u> choose in the last comparison.<br>
+    Please specify which of the following bothers you in this result. You may check multiple options.
+    </div></td>
+  </tr>
+  <tr>
+    <td><hr /></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0px" align="center" cellspacing="10px">
+          <tr>
+         	<td><img src="data/{DATASET_ID}/src.jpg"/></td>
+            <td><img src="data/{DATASET_ID}/{RES_ID}.jpg"/></td>
+          </tr>
+          <tr>
+            <td><div align="center">Source</div></td>
+            <td><div align="center">Result <u>not</u> chosen</div></td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+	<td align="center">
+	  <br>
+	  <form name="queryForm" id="queryForm" action="index.php" method="post">
+		<span id="sprycheckbox1">
+			<table width="950px" border="0" align="center">
+			  <tr>
+              	<td><patTemplate:tmpl name="entry_trial">
+	           		<input name="options" type="checkbox" value={VALUES}></input> {OPTIONS}<br>
+	          	</patTemplate:tmpl>
+	          	</td>
+	          <tr>
+	          <tr height="25px">
+	          	<td><span class="checkboxRequiredMsg">Please make a selection.</span></td>
+	          </tr>
+            </table>
+      	</span>
+		<p>&nbsp;</p>
+		<span>  	
+		  	<input type="button" id="next_button" value="Next &gt;&gt;" style="width:100px;" onclick="next_onClick()"/>
+		 	<input type="hidden" id="selected_id" name="selected_id" value="" />
+		  	<input type="hidden" id="pageid" name="pageid" value="{PAGEID}"/>
+		  	<input type="hidden" id="formname" name="formname" value="{FORM_NAME}" />
+	    </span>
+	  </form>
+	</td>
+  </tr>
+</table>
+</div>
+
+
+<script>
+<!--
+
+// convert checkboxes results to array
+function getSelected(opt) {
+    var selected = new Array();
+    var index = 0;
+    for (var i = 0; i < opt.length; i++) {
+    	 if (opt[i].selected || opt[i].checked) {
+	    	index = selected.length;
+      		selected[index] = opt[i].value;
+    	 }
+    }
+    $('#selected_id').val(selected);
+}
+
+function next_onClick() {
+	var form = document.getElementById("queryForm");
+	var valid = Spry.Widget.Form.validate(form);
+	if(valid) {
+		var msg = "<h2>Great!</h2><br>"+
+		"You got the hang of it.<br>"+
+		"From now on it's the real deal.<br>"+
+		"Click anywhere outside this window to continue, and have fun!";
+		TINY.box.show(msg,0,0,0,0,null,submit);
+	}
+}
+
+function submit() {
+	document.queryForm.submit();
+}
+
+var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1",{validateOn:['change']});
+
+window.onload = function() {
+	var msg = "<h2>Awesome!</h2><br>"+
+	"Occasionally, you might also get this page, where we would ask you to try and<br>"+
+	"speficy what bothered you in the result you <u>did not</u> choose.<br>"+
+	"Click anywhere outside this window, and follow the instructions on the page.<br>";
+	TINY.box.show(msg,0,0,0,0,null,null);
+};
+
+//-->
+</script>
+
+
+</patTemplate:tmpl>

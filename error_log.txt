@@ -1,0 +1,469 @@
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 03:12:24 (EDT)
+	num:8
+	type: Notice
+	msg: Array to string conversion
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 63
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Array to string conversion", "J:\chenyang\code\Workspace\index.php", "63", Array[26])</font><font color=#808080 size="-1"> # line   63, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 03:18:55 (EDT)
+	num:8
+	type: Notice
+	msg: Array to string conversion
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 63
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Array to string conversion", "J:\chenyang\code\Workspace\index.php", "63", Array[26])</font><font color=#808080 size="-1"> # line   63, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 03:19:49 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined offset: 0
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 63
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Undefined offset: 0", "J:\chenyang\code\Workspace\index.php", "63", Array[26])</font><font color=#808080 size="-1"> # line   63, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 03:21:24 (EDT)
+	num:8
+	type: Notice
+	msg: Array to string conversion
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 63
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Array to string conversion", "J:\chenyang\code\Workspace\index.php", "63", Array[26])</font><font color=#808080 size="-1"> # line   63, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 04:13:57 (EDT)
+	num:8
+	type: Notice
+	msg: Use of undefined constant expid - assumed 'expid'
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 55
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Use of undefined constant expid - assumed 'expid'", "J:\chenyang\code\Workspace\index.php", "55", Array[23])</font><font color=#808080 size="-1"> # line   55, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:11 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:15 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:18 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:28 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:32 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "101")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:32 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined offset: 101
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 241
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Undefined offset: 101", "J:\chenyang\code\Workspace\index.php", "241", Array[41])</font><font color=#808080 size="-1"> # line  241, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:32 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined variable: options
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 248
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Undefined variable: options", "J:\chenyang\code\Workspace\index.php", "248", Array[43])</font><font color=#808080 size="-1"> # line  248, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:13:56 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:00 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:04 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:07 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:12 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:15 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "102")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:15 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined offset: 102
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 241
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Undefined offset: 102", "J:\chenyang\code\Workspace\index.php", "241", Array[41])</font><font color=#808080 size="-1"> # line  241, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:15 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined variable: options
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 248
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Undefined variable: options", "J:\chenyang\code\Workspace\index.php", "248", Array[43])</font><font color=#808080 size="-1"> # line  248, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:20 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:23 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "103")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:23 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined offset: 103
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 241
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Undefined offset: 103", "J:\chenyang\code\Workspace\index.php", "241", Array[41])</font><font color=#808080 size="-1"> # line  241, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:23 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined variable: options
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 248
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("8", "Undefined variable: options", "J:\chenyang\code\Workspace\index.php", "248", Array[43])</font><font color=#808080 size="-1"> # line  248, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:28 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:14:32 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "55")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:16:40 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 117
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "117", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "63")</font><font color=#808080 size="-1"> # line  117, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:16:51 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 117
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "117", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "63")</font><font color=#808080 size="-1"> # line  117, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:17:32 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, integer given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, integer given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "1")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:17:32 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 117
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "117", Array[30])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "102")</font><font color=#808080 size="-1"> # line  117, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:17:37 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, integer given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 116
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, integer given", "J:\chenyang\code\Workspace\index.php", "116", Array[29])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "1")</font><font color=#808080 size="-1"> # line  116, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-21 08:17:37 (EDT)
+	num:2
+	type: Warning
+	msg: in_array() expects parameter 2 to be array, string given
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 117
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "in_array() expects parameter 2 to be array, string given", "J:\chenyang\code\Workspace\index.php", "117", Array[30])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+<font face="Courier New,Courier">in_array(Array[3], "63")</font><font color=#808080 size="-1"> # line  117, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-23 07:58:24 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: J:\chenyang\code\Workspace\lib\session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "J:\chenyang\code\Workspace\lib\session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file:/J:\chenyang\code\Workspace\lib\session.inc">J:\chenyang\code\Workspace\lib\session.inc</a></font>
+ &nbsp; <font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line   93, file: <a href="file:/J:\chenyang\code\Workspace\lib\session.inc">J:\chenyang\code\Workspace\lib\session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPathLength()</font><font color=#808080 size="-1"> # line  149, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-23 07:58:24 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: J:\chenyang\code\Workspace\lib\session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "J:\chenyang\code\Workspace\lib\session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file:/J:\chenyang\code\Workspace\lib\session.inc">J:\chenyang\code\Workspace\lib\session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line  213, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-23 07:58:24 (EDT)
+	num:2
+	type: Warning
+	msg: Division by zero
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 222
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("2", "Division by zero", "J:\chenyang\code\Workspace\index.php", "222", Array[39])</font><font color=#808080 size="-1"> # line  222, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-23 08:14:06 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: J:\chenyang\code\Workspace\lib\session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "J:\chenyang\code\Workspace\lib\session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file:/J:\chenyang\code\Workspace\lib\session.inc">J:\chenyang\code\Workspace\lib\session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line  213, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-23 08:14:06 (EDT)
+	num:2
+	type: Warning
+	msg: Division by zero
+	script name: J:\chenyang\code\Workspace\index.php
+	line: 222
+trace:</pre>
+<pre align="left"><font face="Courier New,Courier">userErrorHandler("2", "Division by zero", "J:\chenyang\code\Workspace\index.php", "222", Array[33])</font><font color=#808080 size="-1"> # line  222, file: <a href="file:/J:\chenyang\code\Workspace\index.php">J:\chenyang\code\Workspace\index.php</a></font>
+</pre>
+
+

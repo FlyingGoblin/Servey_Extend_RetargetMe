@@ -1,0 +1,8 @@
+#imageContainer {
+	height:280px;
+}
+
+#imageContainer img {
+	display:none;
+	position:absolute;
+}

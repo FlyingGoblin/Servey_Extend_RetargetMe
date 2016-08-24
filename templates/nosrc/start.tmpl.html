@@ -1,0 +1,73 @@
+<patTemplate:tmpl name="start">
+
+<!-- library for image crossfade effect -->
+<link rel="stylesheet" type="text/css" href="css/xfade2.css" />
+<script type="text/javascript" src="js/xfade2.js"></script>
+
+<div id="page">
+<table width="1024px" border="0" align="center">
+<tr>
+	<td>
+    <h1>Image Retargeting Survey</h1>
+    <br>
+    </td>
+</tr>
+<tr>
+	<td><div align="left">
+	  <p>Thank you for taking the time to participate in our user study! It should not take long to complete.<br>
+	    Please make sure to read the following instructions carefully before proceeding.<br></p>
+	  <h2>Image Retargeting?</h2>
+	  <p>Images often have to be resized in order to fit a smaller, or wider, display (e.g iPhone, widescreen TV). This process is commonly referred to as retargeting.<br>
+		Retargeting can be achieved by various techniques, which produce different resized images as can be seen in the example below.<br>
+	    This study is the first of its kind that tries to better understand the perceptual preferences of users regarding image resizing. For example, which
+	    of these techniques is better suited? for what types of images?</p>
+	  <h2>What is my part in it?</h2>
+	  <p>Well, we will ask you to tell us which of the resized images you like better, which is probably the most important part in this study.<br>
+	  	After filling-in some general details, you will be presented with a series of comparisons, each focusing on a pair of resized images which were produced by different resizing operators. 
+	  	You will be asked to compare between the images and select the one that you find more appealing. Note that you <u>will not</u> be presented with the original image.</p>
+	  <p>Please note that while it might seem that some results are similar or that some comparisons are repeating themselves - they are not.<br>
+	    In some cases the differences are rather subtle, and we have tried to supply you with sufficient tools to still make your decision.<br>
+	    Also remember that you can use ctrl+mouse-wheel to zoom in/out for more careful look (you can try it now on the image below).<br>
+	  </p>
+	  <table cellspacing="10px">
+	  <tr>
+<!--	    <td><img src="images/butterfly.jpg"/></td>-->
+		<td width="205px"><div id="imageContainer">
+			<img src="images/butterfly_0.50_cr.jpg"/>
+			<img src="images/butterfly_0.50_multiop.jpg"/>
+			<img src="images/butterfly_0.50_scl.jpg"/>
+			<img src="images/butterfly_0.50_sc.jpg"/>
+			<img src="images/butterfly_0.50_sm.jpg"/>
+			<img src="images/butterfly_0.50_sns.jpg"/>
+		</div></td>
+	  </tr>
+	  <tr>
+<!--	    <td><div align="center">Source (original)</div></td>-->
+	    <td><div align="center">Retarget</div></td>
+	  </tr>
+	</table>
+	  <h2>Technicalities<br>
+	    </h2>
+	  <p>This survey is best viewed using high screen resolution (<u>&ge;1024x768</u>).<br>
+	    Firefox is the preferred browser, although we have also tested it with Internet Explorer and Google Chrome. Other browsers should be avoided if possible.<br>
+      	Please note that <u>javascript should be enabled</u> for the survey to work correctly.<br>
+      	For any comments or questions, please email us at <a href="mailto:mrub@mit.edu">mrub@mit.edu</a>.</p>
+<!--		Magic Magnify is courtesy of <a href="http://www.magictoolbox.com/">Magic Toolbox</a>.      	-->
+	  <p><br>That's it! you're good to go!<br>
+	    Press 'Start' to begin the survey.<br></p>
+	</div></td>
+</tr>
+<tr>
+	<td><div align="center">
+	<br>
+	<form name="startForm" action="index.php" method="post">
+			<input type="submit" id="next_button" value="Start!" style="width:100px;"/>
+			<input type="hidden" id="pageid" name="pageid" value="{PAGEID}"/>
+			<input type="hidden" id="formname" name="formname" value="{FORM_NAME}" />
+	</div></td>
+</tr>
+
+</table>
+</div>
+
+</patTemplate:tmpl>

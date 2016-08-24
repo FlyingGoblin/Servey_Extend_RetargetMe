@@ -1,0 +1,128 @@
+<patTemplate:tmpl name="imquery">
+
+<script type="text/javascript" src="js/SpryValidationCheckbox.js"></script>
+<script type="text/javascript" src="js/jqueryprogressbar.js"></script>
+<script type="text/javascript" src="js/magicmagnify.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/SpryValidationCheckbox.css">
+<link rel="stylesheet" type="text/css" href="css/progressbar.css" />
+<link rel="stylesheet" type="text/css" href="css/magicmagnify.css" />
+
+
+
+<div id="page">
+<table width="1024px" border="0" align="center">
+  <tr>
+    <td><div align="left">
+    <b>({PAGE}/{NPAGES}):</b> This is the result you <u>did not</u> choose in the last comparison.<br>
+    Please specify which of the following bothers you in this result. You may check multiple options.
+    </div></td>
+  </tr>
+  <tr>
+    <td><hr /></td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0px" align="center" cellspacing="10px">
+          <tr>
+          
+          <!-- Replacing between the pair of commented/uncommented lines below will
+          	   add a magnifying glass to the additional question page -->          
+
+<!--            <td><a href="data/{DATASET_ID}/src_lrg.jpg" rel="type: square; zoom-color: #6e8c0e; size: 140px; line-thickness: 3; line-thickness-border: 0" class="MagicMagnify"><img src="data/{DATASET_ID}/src.jpg"/></a></td>-->
+<!--            <td><a href="data/{DATASET_ID}/{RES_ID}_lrg.jpg" rel="type: square; zoom-color: #6e8c0e; size: 140px; line-thickness: 3; line-thickness-border: 0" class="MagicMagnify"><img src="data/{DATASET_ID}/{RES_ID}.jpg"/></a></td>-->
+           	<td><img src="data/{DATASET_ID}/src.jpg"/></td>
+            <td><img src="data/{DATASET_ID}/{RES_ID}.jpg"/></td>
+          </tr>
+          <tr>
+            <td><div align="center">Source</div></td>
+            <td><div align="center">Result <u>not</u> chosen</div></td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+	<td align="center">
+	  <br>
+	  <form id="queryForm" action="index.php" method="post">
+		<span id="sprycheckbox1">
+			<table width="950px" border="0" align="center">
+			  <tr>
+              	<td><patTemplate:tmpl name="entry">
+	           		<input name="options" type="checkbox" value={VALUES}></input> {OPTIONS}<br>
+	          	</patTemplate:tmpl>
+	          	</td>
+	          <tr>
+	          <tr height="25px">
+	          	<td><span class="checkboxRequiredMsg">Please make a selection.</span></td>
+	          </tr>
+            </table>
+      	</span>
+		<p>&nbsp;</p>
+		<span>  	
+		  	<input type="button" id="next_button" value="Next &gt;&gt;" style="width:100px;" onclick="next_onClick()"/>
+		 	<input type="hidden" id="selected_id" name="selected_id" value="" />
+		  	<input type="hidden" id="path_step" name="path_step" value="{PATH_STEP}" />	 
+		  	<input type="hidden" id="pageid" name="pageid" value="{PAGEID}"/>
+		  	<input type="hidden" id="time" name="time" value="" /> 	  	  
+		  	<input type="hidden" id="formname" name="formname" value="{FORM_NAME}" />
+	    </span>
+	  </form>
+	</td>
+  </tr>
+  <!-- for some reason, the progress bar does not show right if I directly align
+  the td or div -->
+  <table align="center">
+  <tr>
+    <td><div id="progressbar"></div></td>
+  </tr>
+  </table>
+</table>
+</div>
+
+
+<script>
+<!--
+
+// convert checkboxes results to array
+function getSelected(opt) {
+    var selected = new Array();
+    var index = 0;
+    for (var i = 0; i < opt.length; i++) {
+    	 if (opt[i].selected || opt[i].checked) {
+	    	index = selected.length;
+      		selected[index] = opt[i].value;
+    	 }
+    }
+    $('#selected_id').val(selected);
+}
+
+function next_onClick() {
+	var form = document.getElementById("queryForm");
+	var valid = Spry.Widget.Form.validate(form);
+	if(valid) {
+		getSelected(form.options);
+
+		// record time
+		var endtime = new Date().getTime();
+		$('#time').val((endtime-starttime)/1000.0);
+		
+		form.submit();
+	}
+}
+
+$("#progressbar").reportprogress({PROGRESS});
+var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1",{validateOn:['change']});
+
+var starttime; // global
+
+// start timer after the entire page has loaded
+window.onload = function() {
+	starttime = new Date().getTime();
+};
+
+//-->
+</script>
+
+
+</patTemplate:tmpl>

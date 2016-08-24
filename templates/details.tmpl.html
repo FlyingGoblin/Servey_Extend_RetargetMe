@@ -1,0 +1,80 @@
+<patTemplate:tmpl name="details">
+
+<script type="text/javascript"  src="js/SpryValidationRadio.js"></script>
+<script type="text/javascript"  src="js/SpryValidationTextField.js"></script>
+<script type="text/javascript"  src="js/SpryValidationSelect.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/SpryValidationRadio.css">
+<link rel="stylesheet" type="text/css" href="css/SpryValidationTextField.css">
+<link rel="stylesheet" type="text/css" href="css/SpryValidationSelect.css">
+
+<div id="page">
+  <form name=detailsForm action="index.php" method="post">
+  <table width="1024px" border="0" align="center">
+    <tr>
+      <td><h1>User Details</h1><br><br>
+      </td>
+    </tr>
+    <tr>
+      <td><p>Please specify your gender:</p>
+        <blockquote>
+          <p><span id="spryradio1">
+            <input type="radio" name="gender" value="0">
+          	Male<br>
+          	<input type="radio" name="gender" value="1">
+          	Female
+  		  	<span class="radioRequiredMsg">Please make a selection.</span>
+  		  </span></p>
+          <p>&nbsp;</p>
+      </blockquote></td>
+    </tr>
+    <tr>
+      <td><p>Please enter your age:</p>
+        <blockquote>
+          <p><span id="sprytextfield1">
+            <input type="text" name="age">
+	       	<span class="textfieldRequiredMsg">A value is required.</span>
+	       	<span class="textfieldInvalidFormatMsg">Invalid format.</span>
+	       	<!-- for some reason, the min value check does not work... (max does work however) -->
+	       	<span class="textfieldMinValueMsg">The entered value is smaller than the minimum allowed.</span>
+	       	<span class="textfieldMaxValueMsg">The entered value is greater than the maximum allowed.</span>
+          </span></p>
+          <p>&nbsp;</p>
+        </blockquote></td>
+    </tr>
+    <tr>
+      <td><p>Please rate your experience in Computer Graphics or Image Processing?</p>
+        <blockquote>
+          <p><span id="spryselect1">
+            <select name="gpx_bkgrnd">
+              <option value="">-- Please Select --</option>
+              <option value="0">No Experience</option>
+              <option value="1">Beginner</option>
+              <option value="2">Intermediate</option>
+              <option value="3">Advanced</option>
+            </select>
+          	<span class="selectRequiredMsg">Please select an item.</span>
+          </span></p>
+          <p>&nbsp;</p>
+        </blockquote></td>
+    </tr>
+    <tr>
+      <td><p>&nbsp;</p>
+      <p align="center">
+        <input type="submit" id="next" name="next" value="Next &gt;&gt;">
+        <input type="hidden" id="pageid" name="pageid" value="{PAGEID}"/>
+        <input type="hidden" id="formname" name="formname" value="{FORM_NAME}"/>
+      </p></td>
+    </tr>
+  </table>
+</form>
+<script type="text/javascript">
+<!--
+var spryradio1 = new Spry.Widget.ValidationRadio("spryradio1",{validateOn:["change"]});
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "integer", {minValue:0, maxValue:100, validateOn:["change"]});
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1",{validateOn:["change"]});
+//-->
+</script>
+</div>
+
+</patTemplate:tmpl>

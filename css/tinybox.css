@@ -1,0 +1,26 @@
+
+#tinybox {
+	position:absolute; 
+	display:none; 
+	padding:10px;
+	background: white; 
+	border:5px solid #295C72; 
+	z-index:2000
+}
+
+#tinymask {
+	position:absolute; 
+	display:none; 
+	top:0; 
+	left:0; 
+	height:100%; 
+	width:100%; 
+	background:#000; 
+	z-index:1500
+}
+
+#tinycontent {
+	color: black;
+	background: white;
+	text-align: left;
+}

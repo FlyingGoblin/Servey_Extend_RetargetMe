@@ -1,0 +1,20 @@
+1|Lines or edges were broken
+2|Lines or edges were distorted
+3|People or faces were squeezed
+4|People or faces were stretched
+5|People or faces were deformed
+6|Textures were distorted
+7|Foreground objects were squeezed
+8|Foreground objects were stretched
+9|Foreground objects were deformed
+10|Geometric structures were distorted
+11|Symmetry was violated
+12|Text was distorted
+13|Animals were squeezed
+14|Animals were stretched
+15|Animals were deformed
+16|Content was removed or cut-off
+17|Proportions in the image were changed
+18|Smooth image areas were destroyed or removed
+19|Can't put my finger on it. The other result was simply more appealing
+20|Other
