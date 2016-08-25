@@ -260,6 +260,7 @@ if ($state == 'start') { // $ start page
 		$content = $template->getParsedTemplate(TEMPLATE_IMQUERY);
 	} 
 } else if ($state == 'last') {
+	$template->addVar(TEMPLATE_END, 'SESSIONID', $session->getSessionId());
 	$template->addVar(TEMPLATE_END, 'PAGEID', $session->getPageId());
 	$template->addVar(TEMPLATE_END, 'FORM_NAME', FORM_END);
 	if ($session->getUser() == USER_MTURK) {

@@ -467,3 +467,421 @@ trace:</pre>
 </pre>
 
 
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: session_start(): open(tmp/sess_2e32qnarkat06afg8siti55117, O_RDWR) failed: No such file or directory (2)
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 35
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "session_start(): open(tmp/sess_2e32qnarkat06afg8siti55117, O_RDW...", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "35", Array[0])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp;  &nbsp; <font face="Courier New,Courier">session_start()</font><font color=#808080 size="-1"> # line   35, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+ &nbsp; <font face="Courier New,Courier">Session.Session()</font><font color=#808080 size="-1"> # line  150, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">include_once("/var/www/html/Survey_Extend_RetargetMe/lib/session.inc")</font><font color=#808080 size="-1"> # line   12, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open stream: No such file or directory
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 36
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open s...", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "36", Array[3])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fopen("sessions/2e32qnarkat06afg8siti55117.dat", "a")</font><font color=#808080 size="-1"> # line   36, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# New session started: 2016-08-24 04:44:27 (EDT)")</font><font color=#808080 size="-1"> # line   79, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fwrite() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 40
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fwrite() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "40", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fwrite(false, "
+# New session started: 2016-08-24 04:44:27 (EDT)")</font><font color=#808080 size="-1"> # line   40, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# New session started: 2016-08-24 04:44:27 (EDT)")</font><font color=#808080 size="-1"> # line   79, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fclose() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 47
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fclose() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "47", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fclose(false)</font><font color=#808080 size="-1"> # line   47, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# New session started: 2016-08-24 04:44:27 (EDT)")</font><font color=#808080 size="-1"> # line   79, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open stream: No such file or directory
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 36
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open s...", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "36", Array[3])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fopen("sessions/2e32qnarkat06afg8siti55117.dat", "a")</font><font color=#808080 size="-1"> # line   36, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# mode=1, expid=1, expType=0, user=0")</font><font color=#808080 size="-1"> # line   80, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fwrite() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 40
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fwrite() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "40", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fwrite(false, "
+# mode=1, expid=1, expType=0, user=0")</font><font color=#808080 size="-1"> # line   40, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# mode=1, expid=1, expType=0, user=0")</font><font color=#808080 size="-1"> # line   80, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fclose() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 47
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fclose() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "47", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fclose(false)</font><font color=#808080 size="-1"> # line   47, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# mode=1, expid=1, expType=0, user=0")</font><font color=#808080 size="-1"> # line   80, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open stream: No such file or directory
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 36
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open s...", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "36", Array[3])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fopen("sessions/2e32qnarkat06afg8siti55117.dat", "a")</font><font color=#808080 size="-1"> # line   36, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+2.3")</font><font color=#808080 size="-1"> # line   81, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fwrite() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 40
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fwrite() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "40", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fwrite(false, "
+2.3")</font><font color=#808080 size="-1"> # line   40, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+2.3")</font><font color=#808080 size="-1"> # line   81, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fclose() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 47
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fclose() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "47", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fclose(false)</font><font color=#808080 size="-1"> # line   47, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+2.3")</font><font color=#808080 size="-1"> # line   81, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open stream: No such file or directory
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 36
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open s...", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "36", Array[3])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fopen("sessions/2e32qnarkat06afg8siti55117.dat", "a")</font><font color=#808080 size="-1"> # line   36, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+58.200.235.35|58.200.235.35|Mozilla/5.0 (Macintosh; Intel Mac ...")</font><font color=#808080 size="-1"> # line   86, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fwrite() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 40
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fwrite() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "40", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fwrite(false, "
+58.200.235.35|58.200.235.35|Mozilla/5.0 (Macintosh; Intel Mac ...")</font><font color=#808080 size="-1"> # line   40, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+58.200.235.35|58.200.235.35|Mozilla/5.0 (Macintosh; Intel Mac ...")</font><font color=#808080 size="-1"> # line   86, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:27 (EDT)
+	num:2
+	type: Warning
+	msg: fclose() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 47
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fclose() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "47", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fclose(false)</font><font color=#808080 size="-1"> # line   47, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+58.200.235.35|58.200.235.35|Mozilla/5.0 (Macintosh; Intel Mac ...")</font><font color=#808080 size="-1"> # line   86, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:2
+	type: Warning
+	msg: session_start(): open(tmp/sess_2e32qnarkat06afg8siti55117, O_RDWR) failed: No such file or directory (2)
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 35
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "session_start(): open(tmp/sess_2e32qnarkat06afg8siti55117, O_RDW...", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "35", Array[0])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp;  &nbsp; <font face="Courier New,Courier">session_start()</font><font color=#808080 size="-1"> # line   35, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+ &nbsp; <font face="Courier New,Courier">Session.Session()</font><font color=#808080 size="-1"> # line  150, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">include_once("/var/www/html/Survey_Extend_RetargetMe/lib/session.inc")</font><font color=#808080 size="-1"> # line   12, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:2
+	type: Warning
+	msg: fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open stream: No such file or directory
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 36
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open s...", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "36", Array[3])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fopen("sessions/2e32qnarkat06afg8siti55117.dat", "a")</font><font color=#808080 size="-1"> # line   36, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+0|1|0")</font><font color=#808080 size="-1"> # line   94, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:2
+	type: Warning
+	msg: fwrite() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 40
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fwrite() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "40", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fwrite(false, "
+0|1|0")</font><font color=#808080 size="-1"> # line   40, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+0|1|0")</font><font color=#808080 size="-1"> # line   94, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:2
+	type: Warning
+	msg: fclose() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 47
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fclose() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "47", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fclose(false)</font><font color=#808080 size="-1"> # line   47, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+0|1|0")</font><font color=#808080 size="-1"> # line   94, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: path_step
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 70
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: path_step", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "70", Array[0])</font><font color=#808080 size="-1"> # line   70, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getPathStep()</font><font color=#808080 size="-1"> # line  149, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+ &nbsp; <font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line   93, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPathLength()</font><font color=#808080 size="-1"> # line  149, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:2
+	type: Warning
+	msg: fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open stream: No such file or directory
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 36
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fopen(sessions/2e32qnarkat06afg8siti55117.dat): failed to open s...", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "36", Array[3])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fopen("sessions/2e32qnarkat06afg8siti55117.dat", "a")</font><font color=#808080 size="-1"> # line   36, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# Session ended successfully: 2016-08-24 04:44:36 (EDT)
+")</font><font color=#808080 size="-1"> # line  150, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:2
+	type: Warning
+	msg: fwrite() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 40
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fwrite() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "40", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fwrite(false, "
+# Session ended successfully: 2016-08-24 04:44:36 (EDT)
+")</font><font color=#808080 size="-1"> # line   40, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# Session ended successfully: 2016-08-24 04:44:36 (EDT)
+")</font><font color=#808080 size="-1"> # line  150, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 04:44:36 (EDT)
+	num:2
+	type: Warning
+	msg: fclose() expects parameter 1 to be resource, boolean given
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/utils.inc
+	line: 47
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("2", "fclose() expects parameter 1 to be resource, boolean given", "/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc", "47", Array[4])</font><font color=#808080 size="-1"> # line    0, file: <a href="file:/unknown">unknown</a></font>
+ &nbsp; <font face="Courier New,Courier">fclose(false)</font><font color=#808080 size="-1"> # line   47, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/utils.inc">/var/www/html/Survey_Extend_RetargetMe/lib/utils.inc</a></font>
+<font face="Courier New,Courier">Utils.writeToFile("sessions/2e32qnarkat06afg8siti55117.dat", "
+# Session ended successfully: 2016-08-24 04:44:36 (EDT)
+")</font><font color=#808080 size="-1"> # line  150, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 09:05:37 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line  130, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-24 09:05:37 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+ &nbsp; <font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line   93, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPathLength()</font><font color=#808080 size="-1"> # line  149, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-25 02:34:53 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line  130, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-25 02:34:53 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+ &nbsp; <font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line   93, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPathLength()</font><font color=#808080 size="-1"> # line  149, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-25 03:14:13 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line  130, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
+<BR><u>Error Entry</u><pre>
+	datetime: 2016-08-25 03:14:13 (EDT)
+	num:8
+	type: Notice
+	msg: Undefined index: comprison_path
+	script name: /var/www/html/Survey_Extend_RetargetMe/lib/session.inc
+	line: 89
+trace:</pre>
+<pre align="left"> &nbsp;  &nbsp; <font face="Courier New,Courier">userErrorHandler("8", "Undefined index: comprison_path", "/var/www/html/Survey_Extend_RetargetMe/lib/session.inc", "89", Array[0])</font><font color=#808080 size="-1"> # line   89, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+ &nbsp; <font face="Courier New,Courier">Session.getComparisonPath()</font><font color=#808080 size="-1"> # line   93, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/lib/session.inc">/var/www/html/Survey_Extend_RetargetMe/lib/session.inc</a></font>
+<font face="Courier New,Courier">Session.getComparisonPathLength()</font><font color=#808080 size="-1"> # line  149, file: <a href="file://var/www/html/Survey_Extend_RetargetMe/index.php">/var/www/html/Survey_Extend_RetargetMe/index.php</a></font>
+</pre>
+
+
